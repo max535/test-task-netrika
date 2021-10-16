@@ -1,0 +1,34 @@
+.Frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 184px;
+    background-color: lightblue;
+}
+
+
+.Counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    background-color: lime;
+
+}
+
+.Decrement, .Increment, .Count {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: inherit;
+    font-size: 24px;
+}
+
+/* .Increment {
+    width: 40px;
+    height: 40px;
+} */
+

@@ -1,0 +1,58 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height: 184px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    outline: 1px solid #EBEBEB;
+    border-radius: 4px;
+}
+
+.counter:first-child {
+    background-color: #FFF;
+}
+
+.disabled {
+    background-color: #F8F8F8;
+    cursor: not-allowed;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 24px;
+}
+
+
+.decrement, .increment {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: inherit;
+    font-size: 24px;
+}
+
+.increment:hover, .decrement:hover {
+    background-color: #F7F7F7;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+
+.increment:active, .decrement:active {
+    background-color: #DCDCDC;
+}
+
+.count {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5px;
+}

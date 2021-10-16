@@ -1,0 +1,23 @@
+.Counter {
+   width: 120px;
+   height: 40px;
+   background-color: lime;
+
+}
+
+.Decrement, .Increment {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: inherit;
+}
+
+.Increment {
+    width: 40px;
+    height: 40px;
+}
+
+.Count {
+    width: 40px;
+    height: 40px;
+}
